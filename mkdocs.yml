@@ -38,3 +38,137 @@ nav:
   - Blue Team:
       - Detection Engineering: blueteam/detection.md
       - Logging: blueteam/logging.md
+
+  - WebApp Attacks:
+      - Abuse of Functionality: webapp/abuse-of-functionality.md
+      - API Abuse: webapp/api-abuse.md
+      - AI Malicious Injection: webapp/ai-malicious-injection.md
+      - Binary Planting: webapp/binary-planting.md
+      - Blind SQL Injection: webapp/blind-sql-injection.md
+      - Blind XPath Injection: webapp/blind-xpath-injection.md
+      - Broken Access Controls: webapp/broken-access-controls.md
+      - Broken Authentication: webapp/broken-authentication.md
+      - Brute-Force Attacks: webapp/brute-force-attacks.md
+      - Buffer Overflow-Environment Variables: webapp/buffer-overflow-environment-variables.md
+      - Buffer Overflow Attack: webapp/buffer-overflow-attack.md
+      - Business Logic Bugs: webapp/business-logic-bugs.md
+      - Carriage Retun and Line Feed (CRLF) Injection: carriage-return-and-line-feed-(crlf)-injection.md
+      - Cipher Transformation Insecure: webapp/cipher-transformtion-insecure.md
+      - CORS OriginHeaderScrutiny: webapp/cors-originheaderscrutiny.md
+      - CORS RequestPreflightScrutiny: webapp/cors-requestpreflightscrutiny.md
+      - Cache Poisoning: webapp/cache-poisoning.md
+      - Cascade Style Sheets (CSS) Injection: webapp/cascade-style-sheets-(css)-injection.md
+      - Clickjacking: webapp/clickjacking.md
+      - Code Injection: webapp/code-injection.md
+      - Comma Separated Value (CSV) Injection: webapp/comma-separated-value-(csv)-injection.md
+      - Command Injection: webapp/command-injection.md
+      - Comment Injection: webapp/comment-injection.md
+      - Compliance Attestation Complications: webapp/compliance-attestation-complications.md
+      - Content Spoofing: webapp/content-spoofing.md
+      - Credential Stuffing: webapp/credential-stuffing.md
+      - Cross-Frame Scripting (CFS): webapp/cross-frame-scripting-(cfs).md
+      - Cross-Origin Resource Sharing (CORS) Policy: webapp/cross-origin-resource-sharing-(cors)-policy.md
+      - Cross-Site History Manipulation (XSHM): webapp/cross-site-history-manipulation-(xshm).md
+      - Cross-Site Request Forgery (CSRF): webapp/cross-site-request-forgery-(csrf).md
+      - Cross-Site Scripting (XSS): webapp/cross-site-scripting-(xss).md
+      - Cross-Site Tracing (XST): webapp/cross-site-tracing-(xst).md
+      - Cross-User Defacement: webapp/cross-user-defacement.md
+      - Cryptanalysis Attack: webapp/cryptanalysis-attack.md
+      - Custom Special Character Injection: webapp/custom-special-character-injection.md
+      - Denial of Service (DoS): webapp/denial-of-service-(dos).md
+      - Dependency Confusion: webapp/dependency-confusion.md
+      - Directory Indexing Attack: webapp/directory-indexing-attack.md
+      - Directory Traversal (Directory Climbing): webapp/directory-traversal-(directory-climbing).md
+      - Domain Name Service (DNS) Rebinding: webapp/domain-name-service-(dns)-rebinding.md
+      - Embedding Null Code: webapp/embedding-null-code.md
+      - Encapsulation Vulnerability Exploits: webapp/encapsulation-vulnerability-exploits.md
+      - Error Handling Attack: webapp/error-handling-attack.md
+      - Evaluation Injection: webapp/evaluation-injection.md
+      - Execution After Redirect (EAR): webapp/execution-after-redirect-(ear).md
+      - Expression Language Injection: webapp/expression-language-injection.md
+      - External Entity XML (XXE): webapp/external-entity-xml-(xxe).md
+      - Failure to Restrict URL Access: webapp/failure-to-restrict-url-access.md
+      - File Extension Manipulation: webapp/file-extension-manipulation.md
+      - Forced Browsing: webapp/forced-browsing.md
+      - Form Action Hijacking: webapp/form-action-hijacking.md
+Format String Attack
+Full Path Disclosure
+Function Injection
+HITL Dialog Forging (Lies-in-the-Loop)
+HTTP/2 Rapid Reset Attack
+HTTP Request Smuggling
+HTTP Response Splitting
+HTTP Verb Tampering
+Improper Certificate Validation
+Injection Flaw
+Insecure Cryptographic Storage
+Insecure Deserialization Attack
+Insecure Digest
+Insecure Direct Object Reference (IDOR)
+Insufficient Logging and Monitoring
+Insufficient Session Expiration
+Insufficient Transport Layer Protection (TLS)
+IP Spoofing (HTTP Headers)
+LDAP Injection
+Local File Inclusion (LFI)
+Log Injection
+Malicious Redirect
+Man-in-the-Browser (MitB)
+Manipulator-in-the-Middle (MitM)
+Missing Function Level Access Control
+Missing PT_DENY_ATTACH
+Mobile Code Invoking Untrusted Mobile Code
+Mobile Code Non-Final Public Field
+Mobile Code Object Hijack
+NoSQL Injection
+Operating System (OS) Command Injection
+One-Click Attack
+Parameter Delimiter Injection (HTTP Parameter Pollution)
+Password Reset MitM Attack
+Password Spraying
+Path-Relative Stylesheet Import
+Path Traversal
+Quick Response Code Login Jacking (QRLJacking)
+Race Condition
+Reflected DOM Injection
+ReDoS (Regular Expression Denial of Service)
+Remote Code Execution (RCE)
+Remote File Inclusion (RFI)
+Repudiation Attack
+Resource Injection
+Reverse Tabnabbing
+RSQL Injection
+Second-Order Subdomain Takeovers
+Security Misconfigurations
+Sensitive Data Exposure
+SQL Injection (SQLi)
+Server-Side Includes (SSI) Injection
+Server-Side Request Forgery (SSRF)
+Server-Side Template Injection (SSTI)
+Session Fixation
+Session Hijacking
+Session ID Leakage
+Session Prediction
+Session Riding
+SMTP Header Injection
+Settings Manipulation
+Special Element Injection
+Spyware
+Supply Chain Attack
+Traffic Flood (Volumetric DoS)
+Trojan Horse
+Unicode Encoding
+Unvalidated Automatic Library Activation
+Unvalidated Redirect and Forwards
+Unrestricted File Upload
+Web Cache Deception Attack
+Web Parameter Tampering
+Web Service Amplification Attack
+Web Shell Attacks
+Windows ::DATA Alternate Data Stream
+XPath Injection
+XSS in Converting File Content
+XSS in Subtitles
+Zero-Day Attack
+
+      - 
