@@ -165,7 +165,7 @@ nav:
       - Web Parameter Tampering: webapp/web-parameter-tampering.md
       - Web Service Amplification Attack: webapp/web-service-amplification-attack.md
       - Web Shell Attacks: webapp/web-shell-attacks.md
-      - Windows ::DATA Alternate Data Stream: webapp/windows-::data-alternate-data-stream.md
+      - Windows ::DATA Alternate Data Stream: webapp/windows-ads-alternate-data-stream.md
       - XPath Injection: webapp/xpath-injection.md
       - XSS in Converting File Content: webapp/xss-in-converting-file-content.md
       - XSS in Subtitles: webapp/xss-in-subtitles.md
