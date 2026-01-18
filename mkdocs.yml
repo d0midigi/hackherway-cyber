@@ -15,7 +15,9 @@ theme:
 nav:
   - Home: index.md
 
-  - Cyber Domains:
+
+  - Welcome:
+    - Cyber Domains:
       - Active Directory:
           - Overview: ad/index.md
           - Attacks:
@@ -36,3 +38,137 @@ nav:
   - Blue Team:
       - Detection Engineering: blueteam/detection.md
       - Logging: blueteam/logging.md
+
+  - WebApp Attacks:
+      - Abuse of Functionality: webapp/abuse-of-functionality.md
+      - API Abuse: webapp/api-abuse.md
+      - AI Malicious Injection: webapp/ai-malicious-injection.md
+      - Binary Planting: webapp/binary-planting.md
+      - Blind SQL Injection: webapp/blind-sql-injection.md
+      - Blind XPath Injection: webapp/blind-xpath-injection.md
+      - Broken Access Controls: webapp/broken-access-controls.md
+      - Broken Authentication: webapp/broken-authentication.md
+      - Brute-Force Attacks: webapp/brute-force-attacks.md
+      - Buffer Overflow-Environment Variables: webapp/buffer-overflow-environment-variables.md
+      - Buffer Overflow Attack: webapp/buffer-overflow-attack.md
+      - Business Logic Bugs: webapp/business-logic-bugs.md
+      - Carriage Retun and Line Feed (CRLF) Injection: carriage-return-and-line-feed-(crlf)-injection.md
+      - Cipher Transformation Insecure: webapp/cipher-transformtion-insecure.md
+      - CORS OriginHeaderScrutiny: webapp/cors-originheaderscrutiny.md
+      - CORS RequestPreflightScrutiny: webapp/cors-requestpreflightscrutiny.md
+      - Cache Poisoning: webapp/cache-poisoning.md
+      - Cascade Style Sheets (CSS) Injection: webapp/cascade-style-sheets-(css)-injection.md
+      - Clickjacking: webapp/clickjacking.md
+      - Code Injection: webapp/code-injection.md
+      - Comma Separated Value (CSV) Injection: webapp/comma-separated-value-(csv)-injection.md
+      - Command Injection: webapp/command-injection.md
+      - Comment Injection: webapp/comment-injection.md
+      - Compliance Attestation Complications: webapp/compliance-attestation-complications.md
+      - Content Spoofing: webapp/content-spoofing.md
+      - Credential Stuffing: webapp/credential-stuffing.md
+      - Cross-Frame Scripting (CFS): webapp/cross-frame-scripting-(cfs).md
+      - Cross-Origin Resource Sharing (CORS) Policy: webapp/cross-origin-resource-sharing-(cors)-policy.md
+      - Cross-Site History Manipulation (XSHM): webapp/cross-site-history-manipulation-(xshm).md
+      - Cross-Site Request Forgery (CSRF): webapp/cross-site-request-forgery-(csrf).md
+      - Cross-Site Scripting (XSS): webapp/cross-site-scripting-(xss).md
+      - Cross-Site Tracing (XST): webapp/cross-site-tracing-(xst).md
+      - Cross-User Defacement: webapp/cross-user-defacement.md
+      - Cryptanalysis Attack: webapp/cryptanalysis-attack.md
+      - Custom Special Character Injection: webapp/custom-special-character-injection.md
+      - Denial of Service (DoS): webapp/denial-of-service-(dos).md
+      - Dependency Confusion: webapp/dependency-confusion.md
+      - Directory Indexing Attack: webapp/directory-indexing-attack.md
+      - Directory Traversal (Directory Climbing): webapp/directory-traversal-(directory-climbing).md
+      - Domain Name Service (DNS) Rebinding: webapp/domain-name-service-(dns)-rebinding.md
+      - Embedding Null Code: webapp/embedding-null-code.md
+      - Encapsulation Vulnerability Exploits: webapp/encapsulation-vulnerability-exploits.md
+      - Error Handling Attack: webapp/error-handling-attack.md
+      - Evaluation Injection: webapp/evaluation-injection.md
+      - Execution After Redirect (EAR): webapp/execution-after-redirect-(ear).md
+      - Expression Language Injection: webapp/expression-language-injection.md
+      - External Entity XML (XXE): webapp/external-entity-xml-(xxe).md
+      - Failure to Restrict URL Access: webapp/failure-to-restrict-url-access.md
+      - File Extension Manipulation: webapp/file-extension-manipulation.md
+      - Forced Browsing: webapp/forced-browsing.md
+      - Form Action Hijacking: webapp/form-action-hijacking.md
+      - Format String Attack: webapp/format-string-attack.md
+      - Full Path Disclosure: webapp/full-path-disclosure.md
+      - Function Injection: webapp/function-injection.md
+      - HITL Dialog Forging (Lies-in-the-Loop): webapp/hitl-dialog-forging-(lies-in-the-loop).md
+      - HTTP/2 Rapid Reset Attack: webapp/http2-rapid-reset-attack.md
+      - HTTP Request Smuggling: webapp/http-request-smuggling.md
+      - HTTP Response Splitting: webapp/http-response-splitting.md
+      - HTTP Verb Tampering: webapp/http-verb-tampering.md
+      - Improper Certificate Validation: webapp/improper-certificate-validation.md
+      - Injection Flaw-HTTP Response Splitting: webapp/injection-flaw:-http-response-splitting.md
+      - Insecure Cryptographic Storage: webapp/insecure-cryptographic-storage.md
+      - Insecure Deserialization: webapp/insecure-deserialization.md
+      - Insecure Digest: webapp/insecure-digest.md
+      - Insecure Direct Object Reference (IDOR): webapp/insecure-direct-object-reference-(idor).md
+      - Insufficient Logging and Monitoring: webapp/insufficient-logging-and-monitoring.md
+      - Insufficient Session Expiration: webapp/insufficient-session-expiration.md
+      - Insufficient Transport Layer Protection: webapp/insufficient-transport-layer-protection.md
+      - IP Spoofing (HTTP Headers): webapp/ip-spoofing-(http-headers).md
+      - Lightweight Directory Access Protocol (LDAP) Injection: webapp/lightweight-directory-access-protocol-(ldap)-injection.md
+      - Local File Inclusion (LFI): webapp/local-file-inclusion-(lfi).md
+      - Log Injection: webapp/log-injection.md
+      - Malicious Redirect: webapp/malicious-redirect.md
+      - Man-in-the-Browser (MitB): webapp/man-in-th-browser-(mitb).md
+      - Man-in-the-Middle (MitM): webapp/man-in-the-middle-(mitm).md
+      - Missing Function Level Access Control: webapp/missing-function-level-access-control.md
+      - Missing PT_DENY_ATTACH: webapp/missing pt-_-deny-_-attach.md
+      - Mobile Code Invoking Untrusted Mobile Code: webapp/mobile-code-invoking-untrusted-mobile-code.md
+      - Mobile Code Non-Final Public Field: webapp/mobile-code-non-final-public-field.md
+      - Mobile Code Object Hijack: webapp/mobile-code-object-hijack.md
+      - NoSQL Injection: webapp/nosql-injection.md
+      - Operating System (OS) Command Injection: webapp/operating-system-(os)-command-injection.md
+      - One-Click Attack: webapp/one-click-attack.md
+      - Parameter Delimiter Injection (HTTP Parameter Pollution): webapp/parameter-delimiter-injectin-(http-parameter-pollution).md
+      - Password Reset MitM Attack: webapp/password-reset-mitm-attack.md
+      - Password Spraying: webapp/password-spraying.md
+      - Path-Relative Stylesheet Import: webapp/path-relative-stylesheet-import.md
+      - Path Traversal: webapp/path-traversal.md
+      - Quick Response Code Login Jacking (QRLJacking): webapp/quick-response-code-login-jacking-(qrljacking).md
+      - Race Condition: webapp/race-condition.md
+      - Reflected DOM Injection: webapp/reflected-dom-injection.md
+      - Regular Expression Denial of Service (ReDoS): webapp/regular-expression-denial-of-service-(redos).md
+      - Remote Code Execution (RCE): webapp/remote-code-execution-(rce).md
+      - Remote File Inclusion (RFI): webapp/remote-file-inclusion-(rfi).md
+      - Repudiation Attack: webapp/repudiation-attack.md
+      - Resource Injection: webapp/resource-injection.md
+      - Reverse Tabnabbing: webapp/reverse-tabnabbing.md
+      - RSQL Injection: webapp/rsql-injection.md
+      - Second-Order Subdomain Takeover: webapp/second-rder-subdomain-takeover.md
+      - Security Misconfigurations: webapp/security-misconfigurations.md
+      - Sensitive Data Exposure: webapp/sensitive-data-exposure.md
+      - SQL Injection (SQLi): webapp/sql-injection-(sqli).md
+      - Server-Side Includes (SSI) Injection: webapp/server-side-includes-(ssi)-injection.md
+      - Server-Side Request Forgery (SSRF): webapp/server-side request-forgery-(ssrf).md
+      - Server-Side Template Injection (SSTI): webapp/server-side-template-injection-(ssti).md
+      - Session Fixation: webapp/session-fixation.md
+      - Session Hijacking: webapp/session-hijacking.md
+      - Session ID Leakage: webapp/session-id-leakage.md
+      - Session Prediction: webapp/session-prediction.md
+      - Session Riding: webapp/session-riding.md
+      - Simple Mail Transport Protocol (SMTP) Header Injection: webapp/simple-mail-transport-protocol-(smtp)-header-injection.md
+      - Settings Manipulation: webapp/settings-manipulation.md
+      - Special Element Injection: webapp/special-element-injection.md
+      - Spyware: webapp/spyware.md
+      - Supply Chain Attack: webapp/supply-chain-attack.md
+      - Traffic Flood (Volumetric DoS): webapp/traffic-flood-(volumetric-dos).md
+      - Trojan Horse: webapp/trojan-horse.md
+      - Unicode Encoding: webapp/unicode-encoding.md
+      - Unvalidated Automatic Library Activation: webapp/unvalidated-automatic-library-activation.md
+      - Unvalidated Redirects and Forwards: webapp/unvalidated-redirects-and-forwards.md
+      - Unrestricted File Upload: webapp/unrestricted-file-upload.md
+      - Web Cache Deception Attack: webapp/web-cache-deception-attack.md
+      - Web Parameter Tampering: webapp/web-parameter-tampering.md
+      - Web Service Amplification Attack: webapp/web-service-amplification-attack.md
+      - Web Shell Attacks: webapp/web-shell-attacks.md
+      - Windows ::DATA Alternate Data Stream: webapp/windows-ads-alternate-data-stream.md
+      - XPath Injection: webapp/xpath-injection.md
+      - XSS in Converting File Content: webapp/xss-in-converting-file-content.md
+      - XSS in Subtitles: webapp/xss-in-subtitles.md
+      - Zero-Day Attack: webapp/zero-day-attack.md
+
+      - 

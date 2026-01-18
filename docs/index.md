@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+# HackHerWay Cyber
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to HackHerWay Cyber — a structured knowledge base for
+cybersecurity, ethical hacking, and defensive engineering.
 
-## Commands
+## What you’ll find here
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- Active Directory attacks and defenses
+- Network reconnaissance and enumeration
+- Tooling, tradecraft, and methodology
+- Blue team detection and hardening
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Use the navigation on the left to explore.
