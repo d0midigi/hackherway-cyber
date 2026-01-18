@@ -91,84 +91,84 @@ nav:
       - File Extension Manipulation: webapp/file-extension-manipulation.md
       - Forced Browsing: webapp/forced-browsing.md
       - Form Action Hijacking: webapp/form-action-hijacking.md
-Format String Attack
-Full Path Disclosure
-Function Injection
-HITL Dialog Forging (Lies-in-the-Loop)
-HTTP/2 Rapid Reset Attack
-HTTP Request Smuggling
-HTTP Response Splitting
-HTTP Verb Tampering
-Improper Certificate Validation
-Injection Flaw
-Insecure Cryptographic Storage
-Insecure Deserialization Attack
-Insecure Digest
-Insecure Direct Object Reference (IDOR)
-Insufficient Logging and Monitoring
-Insufficient Session Expiration
-Insufficient Transport Layer Protection (TLS)
-IP Spoofing (HTTP Headers)
-LDAP Injection
-Local File Inclusion (LFI)
-Log Injection
-Malicious Redirect
-Man-in-the-Browser (MitB)
-Manipulator-in-the-Middle (MitM)
-Missing Function Level Access Control
-Missing PT_DENY_ATTACH
-Mobile Code Invoking Untrusted Mobile Code
-Mobile Code Non-Final Public Field
-Mobile Code Object Hijack
-NoSQL Injection
-Operating System (OS) Command Injection
-One-Click Attack
-Parameter Delimiter Injection (HTTP Parameter Pollution)
-Password Reset MitM Attack
-Password Spraying
-Path-Relative Stylesheet Import
-Path Traversal
-Quick Response Code Login Jacking (QRLJacking)
-Race Condition
-Reflected DOM Injection
-ReDoS (Regular Expression Denial of Service)
-Remote Code Execution (RCE)
-Remote File Inclusion (RFI)
-Repudiation Attack
-Resource Injection
-Reverse Tabnabbing
-RSQL Injection
-Second-Order Subdomain Takeovers
-Security Misconfigurations
-Sensitive Data Exposure
-SQL Injection (SQLi)
-Server-Side Includes (SSI) Injection
-Server-Side Request Forgery (SSRF)
-Server-Side Template Injection (SSTI)
-Session Fixation
-Session Hijacking
-Session ID Leakage
-Session Prediction
-Session Riding
-SMTP Header Injection
-Settings Manipulation
-Special Element Injection
-Spyware
-Supply Chain Attack
-Traffic Flood (Volumetric DoS)
-Trojan Horse
-Unicode Encoding
-Unvalidated Automatic Library Activation
-Unvalidated Redirect and Forwards
-Unrestricted File Upload
-Web Cache Deception Attack
-Web Parameter Tampering
-Web Service Amplification Attack
-Web Shell Attacks
-Windows ::DATA Alternate Data Stream
-XPath Injection
-XSS in Converting File Content
-XSS in Subtitles
-Zero-Day Attack
+      - Format String Attack: webapp/format-string-attack.md
+      - Full Path Disclosure: webapp/full-path-disclosure.md
+      - Function Injection: webapp/function-injection.md
+      - HITL Dialog Forging (Lies-in-the-Loop): webapp/hitl-dialog-forging-(lies-in-the-loop).md
+      - HTTP/2 Rapid Reset Attack: webapp/http2-rapid-reset-attack.md
+      - HTTP Request Smuggling: webapp/http-request-smuggling.md
+      - HTTP Response Splitting: webapp/http-response-splitting.md
+      - HTTP Verb Tampering: webapp/http-verb-tampering.md
+      - Improper Certificate Validation: webapp/improper-certificate-validation.md
+      - Injection Flaw-HTTP Response Splitting: webapp/injection-flaw:-http-response-splitting.md
+      - Insecure Cryptographic Storage: webapp/insecure-cryptographic-storage.md
+      - Insecure Deserialization: webapp/insecure-deserialization.md
+      - Insecure Digest: webapp/insecure-digest.md
+      - Insecure Direct Object Reference (IDOR): webapp/insecure-direct-object-reference-(idor).md
+      - Insufficient Logging and Monitoring: webapp/insufficient-logging-and-monitoring.md
+      - Insufficient Session Expiration: webapp/insufficient-session-expiration.md
+      - Insufficient Transport Layer Protection: webapp/insufficient-transport-layer-protection.md
+      - IP Spoofing (HTTP Headers): webapp/ip-spoofing-(http-headers).md
+      - Lightweight Directory Access Protocol (LDAP) Injection: webapp/lightweight-directory-access-protocol-(ldap)-injection.md
+      - Local File Inclusion (LFI): webapp/local-file-inclusion-(lfi).md
+      - Log Injection: webapp/log-injection.md
+      - Malicious Redirect: webapp/malicious-redirect.md
+      - Man-in-the-Browser (MitB): webapp/man-in-th-browser-(mitb).md
+      - Man-in-the-Middle (MitM): webapp/man-in-the-middle-(mitm).md
+      - Missing Function Level Access Control: webapp/missing-function-level-access-control.md
+      - Missing PT_DENY_ATTACH: webapp/missing pt-_-deny-_-attach.md
+      - Mobile Code Invoking Untrusted Mobile Code: webapp/mobile-code-invoking-untrusted-mobile-code.md
+      - Mobile Code Non-Final Public Field: webapp/mobile-code-non-final-public-field.md
+      - Mobile Code Object Hijack: webapp/mobile-code-object-hijack.md
+      - NoSQL Injection: webapp/nosql-injection.md
+      - Operating System (OS) Command Injection: webapp/operating-system-(os)-command-injection.md
+      - One-Click Attack: webapp/one-click-attack.md
+      - Parameter Delimiter Injection (HTTP Parameter Pollution): webapp/parameter-delimiter-injectin-(http-parameter-pollution).md
+      - Password Reset MitM Attack: webapp/password-reset-mitm-attack.md
+      - Password Spraying: webapp/password-spraying.md
+      - Path-Relative Stylesheet Import: webapp/path-relative-stylesheet-import.md
+      - Path Traversal: webapp/path-traversal.md
+      - Quick Response Code Login Jacking (QRLJacking): webapp/quick-response-code-login-jacking-(qrljacking).md
+      - Race Condition: webapp/race-condition.md
+      - Reflected DOM Injection: webapp/reflected-dom-injection.md
+      - Regular Expression Denial of Service (ReDoS): webapp/regular-expression-denial-of-service-(redos).md
+      - Remote Code Execution (RCE): webapp/remote-code-execution-(rce).md
+      - Remote File Inclusion (RFI): webapp/remote-file-inclusion-(rfi).md
+      - Repudiation Attack: webapp/repudiation-attack.md
+      - Resource Injection: webapp/resource-injection.md
+      - Reverse Tabnabbing: webapp/reverse-tabnabbing.md
+      - RSQL Injection: webapp/rsql-injection.md
+      - Second-Order Subdomain Takeover: webapp/second-rder-subdomain-takeover.md
+      - Security Misconfigurations: webapp/security-misconfigurations.md
+      - Sensitive Data Exposure: webapp/sensitive-data-exposure.md
+      - SQL Injection (SQLi): webapp/sql-injection-(sqli).md
+      - Server-Side Includes (SSI) Injection: webapp/server-side-includes-(ssi)-injection.md
+      - Server-Side Request Forgery (SSRF): webapp/server-side request-forgery-(ssrf).md
+      - Server-Side Template Injection (SSTI): webapp/server-side-template-injection-(ssti).md
+      - Session Fixation: webapp/session-fixation.md
+      - Session Hijacking: webapp/session-hijacking.md
+      - Session ID Leakage: webapp/session-id-leakage.md
+      - Session Prediction: webapp/session-prediction.md
+      - Session Riding: webapp/session-riding.md
+      - Simple Mail Transport Protocol (SMTP) Header Injection: webapp/simple-mail-transport-protocol-(smtp)-header-injection.md
+      - Settings Manipulation: webapp/settings-manipulation.md
+      - Special Element Injection: webapp/special-element-injection.md
+      - Spyware: webapp/spyware.md
+      - Supply Chain Attack: webapp/supply-chain-attack.md
+      - Traffic Flood (Volumetric DoS): webapp/traffic-flood-(volumetric-dos).md
+      - Trojan Horse: webapp/trojan-horse.md
+      - Unicode Encoding: webapp/unicode-encoding.md
+      - Unvalidated Automatic Library Activation: webapp/unvalidated-automatic-library-activation.md
+      - Unvalidated Redirects and Forwards: webapp/unvalidated-redirects-and-forwards.md
+      - Unrestricted File Upload: webapp/unrestricted-file-upload.md
+      - Web Cache Deception Attack: webapp/web-cache-deception-attack.md
+      - Web Parameter Tampering: webapp/web-parameter-tampering.md
+      - Web Service Amplification Attack: webapp/web-service-amplification-attack.md
+      - Web Shell Attacks: webapp/web-shell-attacks.md
+      - Windows ::DATA Alternate Data Stream: webapp/windows-::data-alternate-data-stream.md
+      - XPath Injection: webapp/xpath-injection.md
+      - XSS in Converting File Content: webapp/xss-in-converting-file-content.md
+      - XSS in Subtitles: webapp/xss-in-subtitles.md
+      - Zero-Day Attack: webapp/zero-day-attack.md
 
       - 
