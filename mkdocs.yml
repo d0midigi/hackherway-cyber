@@ -5,4 +5,34 @@ theme:
     scheme: slate
     primary: pink
     accent: pink
+    
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - navigation.tracking
 
+nav:
+  - Home: index.md
+
+  - Cyber Domains:
+      - Active Directory:
+          - Overview: ad/index.md
+          - Attacks:
+              - Kerberoasting: ad/attacks/kerberoasting.md
+              - DCSync: ad/attacks/dcsync.md
+          - Defenses:
+              - Hardening: ad/defense/hardening.md
+      - Network Security:
+          - Recon: network/recon.md
+          - Enumeration: network/enum.md
+
+  - Ethical Hacking:
+      - Methodology: hacking/methodology.md
+      - Tools:
+          - Nmap: tools/nmap.md
+          - Burp Suite: tools/burp.md
+
+  - Blue Team:
+      - Detection Engineering: blueteam/detection.md
+      - Logging: blueteam/logging.md
