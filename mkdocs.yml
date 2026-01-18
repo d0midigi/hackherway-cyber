@@ -1,0 +1,8 @@
+site_name: hackherway-cyber
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: pink
+    accent: pink
+
