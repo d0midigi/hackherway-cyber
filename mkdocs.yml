@@ -15,7 +15,9 @@ theme:
 nav:
   - Home: index.md
 
-  - Cyber Domains:
+
+  - Welcome:
+    - Cyber Domains:
       - Active Directory:
           - Overview: ad/index.md
           - Attacks:
