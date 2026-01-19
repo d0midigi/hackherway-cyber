@@ -38,16 +38,8 @@ jobs:
 
       # Step 3: Install MkDocs and dependencies
       # Install MkDocs and all required dependencies from requirements.txt
-      # If requirements.txt doesn't exist, fall back to installing mkdocs and mkdocs-material directly
       - name: Install MkDocs and dependencies
-        run: |
-          if [ -f requirements.txt ]; then
-            echo "Installing dependencies from requirements.txt..."
-            pip install -r requirements.txt
-          else
-            echo "No requirements.txt found, installing mkdocs and mkdocs-material..."
-            pip install mkdocs mkdocs-material
-          fi
+        run: pip install -r requirements.txt
 
       # Step 4: Build the MkDocs site
       # This generates the static HTML files from the markdown documentation
