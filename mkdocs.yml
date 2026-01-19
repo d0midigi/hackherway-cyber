@@ -2,7 +2,7 @@ site_name: hackherway-cyber
 theme:
   name: material
   palette:
-    scheme: lux
+    scheme: default
     primary: pink
     accent: pink
     
@@ -16,7 +16,8 @@ nav:
   - Home: index.md
 
 
-  - Welcome: index.md
+  - Welcome:
+   - Overview: index.md
     - Cyber Domains:
       - Active Directory:
           - Overview: ad/index.md
@@ -170,5 +171,3 @@ nav:
       - XSS in Converting File Content: webapp/xss-in-converting-file-content.md
       - XSS in Subtitles: webapp/xss-in-subtitles.md
       - Zero-Day Attack: webapp/zero-day-attack.md
-
-      - 
