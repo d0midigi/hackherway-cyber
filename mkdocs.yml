@@ -2,7 +2,7 @@ site_name: hackherway-cyber
 theme:
   name: material
   palette:
-    scheme: slate
+    scheme: lux
     primary: pink
     accent: pink
     
