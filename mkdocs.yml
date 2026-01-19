@@ -5,16 +5,14 @@ theme:
     scheme: default
     primary: pink
     accent: pink
-    
   features:
     - navigation.sections
     - navigation.expand
     - navigation.instant
     - navigation.tracking
 
- nav:
+nav:
   - Home: index.md
-  - Welcome:
     - Overview: index.md
       - Cyber Domains:
         - Active Directory:
