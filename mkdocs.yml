@@ -14,8 +14,6 @@ theme:
 
 nav:
   - Home: index.md
-
-
   - Welcome:
    - Overview: index.md
     - Cyber Domains:
