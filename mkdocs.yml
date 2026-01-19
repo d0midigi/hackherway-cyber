@@ -13,15 +13,16 @@ theme:
     - navigation.tracking
 
 nav:
+ nav:
   - Home: index.md
   - Welcome:
-   - Overview:
-    - Cyber Domains:
-      - Active Directory:
-          - Overview: ad/index.md
-          - Attacks:
-              - Kerberoasting: ad/attacks/kerberoasting.md
-              - DCSync: ad/attacks/dcsync.md
+      - Overview: index.md
+          - Cyber Domains:
+              - Active Directory:
+                  - Overview: ad/index.md
+                  - Attacks:
+                      - Kerberoasting: ad/attacks/kerberoasting.md
+                      - DCSync: ad/attacks/dcsync.md
           - Defenses:
               - Hardening: ad/defense/hardening.md
       - Network Security:
