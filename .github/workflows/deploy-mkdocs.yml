@@ -1,11 +1,14 @@
 name: Deploy MkDocs to GitHub Pages
 
+# Trigger: Run this workflow on every push to the main branch
 on:
   push:
     branches:
       - main
+  # Allow manual workflow dispatch from the Actions tab
   workflow_dispatch:
 
+# Permissions: Grant write access to repository contents to allow pushing to gh-pages branch
 permissions:
   contents: write
 
@@ -14,19 +17,45 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      # Step 1: Checkout the repository
+      # This action checks out the repository code so we can build the documentation
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # Fetch all history for all branches and tags (useful for git info plugin if used)
+          fetch-depth: 0
 
+      # Step 2: Set up Python environment
+      # MkDocs requires Python to build the documentation
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+          # Enable caching of pip dependencies to speed up workflow runs
+          cache: 'pip'
+          # Specify the requirements file for cache key generation
+          cache-dependency-path: 'requirements.txt'
 
-      - name: Install MkDocs
-        run: |
-          pip install mkdocs
+      # Step 3: Install MkDocs and dependencies
+      # Install MkDocs and all required dependencies from requirements.txt
+      - name: Install MkDocs and dependencies
+        run: pip install -r requirements.txt
 
-      - name: Build and deploy
-        run: |
-          mkdocs gh-deploy --force
+      # Step 4: Build the MkDocs site
+      # This generates the static HTML files from the markdown documentation
+      - name: Build MkDocs site
+        run: mkdocs build --strict --verbose
+
+      # Step 5: Deploy to GitHub Pages
+      # Deploy the built site to the gh-pages branch
+      # The mkdocs gh-deploy command handles:
+      # - Creating/updating the gh-pages branch
+      # - Pushing the site/ directory contents to gh-pages
+      # - Using GITHUB_TOKEN for authentication (automatically provided by GitHub Actions)
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force --message "Deploy documentation [skip ci]"
+        env:
+          # GitHub automatically provides GITHUB_TOKEN with appropriate permissions
+          # This token is used for authentication when pushing to gh-pages branch
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
